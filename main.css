@@ -105,7 +105,7 @@ html {
 
 @media (min-width: 320px )  and (max-width: 480px) {
         body {
-            background-image: url('fon/fon.jpeg'); /* путь к скачанной картинке */
+            background-image: url('fon/fon5.jpeg'); /* путь к скачанной картинке */
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -116,7 +116,10 @@ html {
           }
 
    
-
+        
+          .header {
+            margin-top: 70px;
+          }
     .text {
         display: flex;
         justify-content: center;
@@ -208,7 +211,7 @@ html {
 
 @media (min-width: 480px )  and (max-width: 768px) {
     body {
-        background-image: url('fon/fon.jpeg'); /* путь к скачанной картинке */
+        background-image: url('fon/fon5.jpeg'); /* путь к скачанной картинке */
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -216,7 +219,9 @@ html {
         height: 100px;
       }
 
-
+      .header {
+        margin-top: 100px;
+      }
 .text {
     display: flex;
     justify-content: center;
